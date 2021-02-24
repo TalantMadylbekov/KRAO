@@ -1,5 +1,5 @@
 
-import './css/mat.css'
+
 import Matriculant from "./components/matriculant";
 
 function App() {
