@@ -1,11 +1,10 @@
 
-
-import Matriculant from "./components/matriculant";
+import Structure from "./components/structure";
 
 function App() {
   return (
     <div>
-      <Matriculant/>
+      <Structure/>
     </div>
   )
 }

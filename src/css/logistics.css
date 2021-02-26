@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+.Container{
+    width: 1350px;
+    margin: 0 auto;
+}
+.Container h2, h3 {
+    font-family: source-code-pro;
+    margin: 2%;
+}
+.Container p {
+    font-family: source-code-pro;
+    line-height: 20px;
+    margin: 1%;
+}
