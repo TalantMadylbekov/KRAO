@@ -1,10 +1,10 @@
 
-import Structure from "./components/structure";
+import Logistics from "./components/logistics";
 
 function App() {
   return (
     <div>
-      <Structure/>
+      <Logistics/>
     </div>
   )
 }
