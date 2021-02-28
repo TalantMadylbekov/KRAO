@@ -485,6 +485,7 @@ export default function SimpleAccordion() {
                 </tbody>
             </table>
                    <h2>Условия питания и охраны здоровья обучающихся</h2>
+                     <div className="table-wrap">
                         <table className="table">
                             <thead>
                             <tr>
@@ -505,6 +506,7 @@ export default function SimpleAccordion() {
                             </tr>
                             </tbody>
                         </table>
+                     </div>
 
             <div className={classes.root}>
                 <Accordion>

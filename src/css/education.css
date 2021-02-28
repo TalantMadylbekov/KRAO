@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 * {
-    font-family: sans-serif;
+    font-family: 'Source Code Pro', monospace;
 }
 body {
     box-sizing: border-box;
     margin: 0;
-    font-family: 'Source Code Pro', monospace;;
 }
 
 table {
-    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 14px;
     border-radius: 10px;
     border-spacing: 0;
@@ -25,6 +24,7 @@ th, td {
     border-style: solid;
     border-width: 0 1px 1px 0;
     border-color: white;
+    font-family: 'Source Code Pro', monospace;
 }
 th:first-child, td:first-child {
     text-align: left;
@@ -52,6 +52,10 @@ tr td:last-child {
 
 .info {
     margin-top: 2%;
-    font-family: source-code-pro;
+    font-family: 'Source Code Pro', monospace;
     text-decoration: underline;
+}
+.licence {
+    margin: 2%;
+    font-family: 'Source Code Pro', monospace;
 }

@@ -69,6 +69,7 @@ const Education = () => {
                     <td><a href="https://drive.google.com/drive/folders/1iQbUjEEvKeG_XZ8m8Y0wygXcjUWSI1L3?usp=sharing"><Icon size={32} icon={fileText2} /></a></td>
                 </tr>
             </table>
+            <div className ="license">Лицензия на осуществления деятельности <a href="https://drive.google.com/file/d/1iBfLfcKyLaPgNl4FLBG3i3xJ-ZPP0LQ-/view?usp=sharing"><Icon size={32} icon={fileText2} /></a></div>
         </div>
     );
 };
