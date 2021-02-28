@@ -2,9 +2,27 @@ import React from 'react';
 import '../css/education.css'
 import { Icon } from 'react-icons-kit'
 import {fileText2} from 'react-icons-kit/icomoon/fileText2'
+import {filePdf} from 'react-icons-kit/icomoon/filePdf'
+import {makeStyles} from "@material-ui/core/styles";
+import Accordion from "@material-ui/core/Accordion";
+import AccordionSummary from "@material-ui/core/AccordionSummary";
+import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
+import Typography from "@material-ui/core/Typography";
+import AccordionDetails from "@material-ui/core/AccordionDetails";
 
 
-const Education = () => {
+const useStyles = makeStyles((theme) => ({
+    root: {
+        width: '100%',
+    },
+    heading: {
+        fontSize: theme.typography.pxToRem(15),
+        fontWeight: theme.typography.fontWeightRegular,
+    },
+}));
+export default function SimpleAccordion() {
+    const classes = useStyles();
+
     return (
         <div className="wrap">
             <table className="table">
@@ -70,8 +88,57 @@ const Education = () => {
                 </tr>
             </table>
             <div className ="license">Лицензия на осуществления деятельности <a href="https://drive.google.com/file/d/1iBfLfcKyLaPgNl4FLBG3i3xJ-ZPP0LQ-/view?usp=sharing"><Icon size={32} icon={fileText2} /></a></div>
+            <div className={classes.root}>
+                <Accordion>
+                    <AccordionSummary
+                        expandIcon={<ExpandMoreIcon />}
+                        aria-controls="panel1a-content"
+                        id="panel1a-header"
+                    >
+                        <Typography className={classes.heading}><h2>Обоазовательные стандарты</h2></Typography>
+                    </AccordionSummary>
+                    <AccordionDetails>
+                        <Typography>
+                            <div>
+                            <div>
+                                <a href="https://drive.google.com/file/d/1y-LKRKBM-gN8TdqgHNK3BI_qIAzk_3kH/view?usp=sharing">
+                                    <div style={{ color: '#861e24' }}>
+                                        <Icon size={32} icon={filePdf}/>
+                                        Прикладная информатика
+                                    </div>
+                                </a>
+                            </div>
+                            <div>
+                            <a href="https://drive.google.com/file/d/19hKwAI6Mr0-SnLKj4y-zEqr926YnRB0r/view?usp=sharing">
+
+                                <div style={{ color: '#861e24' }}>
+                                    <Icon size={32} icon={filePdf}/>
+                                    Психология
+                                </div>
+                            </a>
+                            </div>
+                            <div>
+                            <a href="https://drive.google.com/file/d/1JHi9B3OtOhKb2f5GsF4H2NVIdqh6g24e/view?usp=sharing">
+                                <div style={{ color: '#861e24' }}>
+                                    <Icon size={32} icon={filePdf}/>
+                                    Экономика
+                                </div>
+                            </a>
+                            </div>
+                            <div>
+                            <a href="https://drive.google.com/file/d/1Vpr7PcFi8NB1f4FY__Fgg3H4GXItDy6E/view?usp=sharing">
+                                <div style={{ color: '#861e24' }}>
+                                    <Icon size={32} icon={filePdf}/>
+                                    Государственное и муниципальное управление
+                                </div>
+                            </a>
+                            </div>
+                            </div>
+                        </Typography>
+                    </AccordionDetails>
+                </Accordion>
+            </div>
         </div>
+
     );
 };
-
-export default Education;

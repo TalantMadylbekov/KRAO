@@ -9,7 +9,7 @@ import Structure from "./components/structure";
 function App() {
   return (
     <div>
-      <Structure/>
+      <Education/>
     </div>
   )
 }
