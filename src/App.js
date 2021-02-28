@@ -1,10 +1,13 @@
 
+import Education from "./components/education";
 import Logistics from "./components/logistics";
+import React from "react";
+
 
 function App() {
   return (
     <div>
-      <Logistics/>
+      <Education/>
     </div>
   )
 }

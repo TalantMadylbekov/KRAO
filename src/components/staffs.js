@@ -78,7 +78,7 @@ const Staffs = () => {
                 </tr>
                 </tbody>
             </table>
-            <h2>Руководство университета</h2>
+            <h2>Руководители филиалов</h2>
             <table className="table">
                 <thead>
                 <tr>

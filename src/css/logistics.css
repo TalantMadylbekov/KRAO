@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@1,200&display=swap');
 
 body {
     box-sizing: border-box;
@@ -12,11 +12,11 @@ body {
     margin: 0 auto;
 }
 .Container h2, h3 {
-    font-family: source-code-pro;
+    font-family: 'Source Code Pro', monospace;
     margin: 2%;
 }
 .Container p {
-    font-family: source-code-pro;
+    font-family: 'Source Code Pro', monospace;
     line-height: 20px;
     margin: 1%;
 }
@@ -66,14 +66,3 @@ body {
 .table tbody tr:last-child td:last-child {
     border-radius: 0 0 20px 0;
 }
-.sub-menu
-{
-    display: none;
-}
-.main-item:focus ~ .sub-menu,
-.main-item:active ~ .sub-menu,
-.sub-menu:hover
-{
-    display: block;
-}
-
